@@ -13,20 +13,22 @@ import {
 
 export const greetings: GreetingsType = {
   name: "Mark Joseph Cabuquit",
-  title: "Hi all, I'm Mark",
+  title: "Hi all, I'm Mark Joseph",
   description:
     "Android Developer specializing in Kotlin and Java with experience in building scalable mobile applications using Jetpack Compose, Firebase, REST APIs, and modern Android development practices. Passionate about creating high-performance and user-friendly mobile experiences.",
-  resumeLink: "#",
+  resumeLink: "https://mark-joseph-cabuquit-flowcv-resume-2026-05-23.tiiny.site/",
 };
 
 export const openSource = {
   githubUserName: "mjcabuquit",
 };
 
-export const contact = {};
+export const contact = {
+
+};
 
 export const socialLinks: SocialLinksType = {
-  email: "mailto:hanzla.tauqeer123@gmail.com",
+  email: "mailto:cabuquit.markjoseph@gmail.com",
   linkedin: "https://www.linkedin.com/in/mark-joseph-cabuquit-b7803098/",
   github: "https://github.com/mjcabuquit",
   // instagram: "https://www.instagram.com/__hanzla100",
@@ -39,7 +41,7 @@ export const skillsSection: SkillsSectionType = {
   subTitle: "ANDROID DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   data: [
     {
-      title: "Front End Skills",
+      title: "Android End Skills",
       lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
       skills: [
         emoji("⚡ Develop Android applications using Kotlin and Java"),
@@ -185,19 +187,19 @@ export const feedbacks: FeedbackType[] = [
     name: "Julius Cabug-us",
     role: "Team Lead, Android Development Team",
     feedback:
-      "N/A",
+      "",
   },
   {
     name: "Jesrel Padriga",
     role: "Android Developer",
     feedback:
-      "N/A",
+      "",
   },
   {
     name: "Christine Marie Cornelio",
     role: "Scrum Master",
     feedback:
-      "N/A",
+      "",
   },
 ];
 
