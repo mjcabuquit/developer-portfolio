@@ -147,7 +147,7 @@ export const experience: ExperienceType[] = [
     role: "Software Engineer",
     company: "Nerubia Web Solutions Inc.",
     companyLogo: "/img/icons/common/nerubia.png",
-    date: "Aug 2022 - Present",
+    date: "Mar 2016 - Mar 2026",
     desc: "I worked as a Software Engineer responsible for developing and maintaining mobile and web applications. My role included Android development using Kotlin and Java, API integration, Firebase implementation, bug fixing, performance optimization, and collaborating with the development team to deliver scalable and user-friendly software solutions.",
   },
   {
@@ -199,7 +199,7 @@ export const feedbacks: FeedbackType[] = [
     name: "Christine Marie Cornelio",
     role: "Scrum Master",
     feedback:
-      "",
+      "I had the opportunity to work closely with Mark at Nerubia Web Solutions Inc. as his Project Manager/Scrum Master. He was highly dependable, technically skilled, and consistently delivered on his commitments. Mark worked professionally, adapted well to feedback, and was always proactive in solving challenges. He was a valuable part of the team, and I’m grateful to have worked with him.",
   },
 ];
 
