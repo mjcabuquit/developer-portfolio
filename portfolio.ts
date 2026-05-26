@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   name: "Mark Joseph Cabuquit",
   title: "Hi all, I'm Mark Joseph",
   description:
-    "Android Developer specializing in Kotlin and Java with experience in building scalable mobile applications using Jetpack Compose, Firebase, REST APIs, and modern Android development practices. Passionate about creating high-performance and user-friendly mobile experiences.",
+    "Software Engineer specializing in Kotlin and Java with experience in building scalable mobile applications using Jetpack Compose, Firebase, REST APIs, and modern Android development practices. Passionate about creating high-performance and user-friendly mobile experiences. I also have skills in ReactJS and NextJS for web development. I am eager to contribute my expertise to innovative projects and collaborate with talented teams.",
   resumeLink: "https://mark-joseph-cabuquit-flowcv-resume-2026-05-23.tiiny.site/",
 };
 
@@ -38,21 +38,21 @@ export const socialLinks: SocialLinksType = {
 
 export const skillsSection: SkillsSectionType = {
   title: "What I do",
-  subTitle: "ANDROID DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "SOFTWARE ENGINEER WHO WANTS TO EXPLORE EVERY TECH STACK",
   data: [
     {
-      title: "Android End Skills",
+      title: "Front End Skills",
       lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
       skills: [
-        emoji("⚡ Develop Android applications using Kotlin and Java"),
-        emoji("⚡ Build modern UI with Jetpack Compose and XML"),
+        emoji("⚡ Develop Web and Android applications using Kotlin and Java for Android, and ReactJS and NextJS for web development"),
+        emoji("⚡ Build modern UI with Jetpack Compose and XML, and responsive web design with ReactJS and NextJS"),
         emoji("⚡ Integrate RESTful APIs and Firebase services"),
         emoji("⚡ Optimize app performance and fix bugs"),
         emoji("⚡ Use MVVM architecture and clean code practices"),
         emoji("⚡ Manage local databases and background tasks"),
         emoji("⚡ Publish and maintain apps on the Google Play Store"),
         emoji("⚡ Collaborate with designers and backend developers"),
-        emoji("⚡ Maintain and improve existing mobile applications"),
+        emoji("⚡ Maintain and improve existing web and mobile applications"),
       ],
       softwareSkills: [
         {
@@ -148,7 +148,7 @@ export const experience: ExperienceType[] = [
     company: "Nerubia Web Solutions Inc.",
     companyLogo: "/img/icons/common/nerubia.png",
     date: "Mar 2016 - Mar 2026",
-    desc: "I worked as a Software Engineer responsible for developing and maintaining mobile and web applications. My role included Android development using Kotlin and Java, API integration, Firebase implementation, bug fixing, performance optimization, and collaborating with the development team to deliver scalable and user-friendly software solutions.",
+    desc: "I worked as a Software Engineer responsible for developing and maintaining mobile and web applications. My role included Android development using Kotlin and Java, API integration, Firebase implementation, bug fixing, performance optimization, and collaborating with the development team to deliver scalable and user-friendly software solutions. For web development, I utilized ReactJS and NextJS to create responsive and dynamic user interfaces. I also contributed to the design and architecture of applications, ensuring high-quality code and adherence to best practices.",
   },
   {
     role: "Senior Android Developer",
