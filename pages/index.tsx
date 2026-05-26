@@ -1,4 +1,5 @@
 import dynamic from "next/dynamic";
+import { Analytics } from "@vercel/analytics/next"
 const Navigation = dynamic(() => import("../components/Navigation"));
 const Greetings = dynamic(() => import("../containers/Greetings"));
 const Skills = dynamic(() => import("../containers/Skills"));
@@ -25,6 +26,7 @@ export default function Home({ githubProfileData }: { githubProfileData: any }) 
       <Feedbacks />
       <Projects />
       <GithubProfileCard {...githubProfileData} />
+      <Analytics />
     </div>
   );
 }
