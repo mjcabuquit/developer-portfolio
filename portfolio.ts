@@ -41,10 +41,10 @@ export const skillsSection: SkillsSectionType = {
   subTitle: "SOFTWARE ENGINEER WHO WANTS TO EXPLORE EVERY TECH STACK",
   data: [
     {
-      title: "Front End Skills",
+      title: "Software Engineering Skills",
       lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
       skills: [
-        emoji("⚡ Develop Web and Android applications using Kotlin and Java for Android, and ReactJS and NextJS for web development"),
+        emoji("⚡ Develop Web and Android applications using Kotlin and Java for Android, Flutter for both iOS and Android, and ReactJS, NextJS and Ruby on Rails for web development"),
         emoji("⚡ Build modern UI with Jetpack Compose and XML, and responsive web design with ReactJS and NextJS"),
         emoji("⚡ Integrate RESTful APIs and Firebase services"),
         emoji("⚡ Optimize app performance and fix bugs"),
@@ -84,9 +84,18 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: "vscode-icons:file-type-light-next",
         },
         {
+          skillName: "Tailwind CSS",
+          iconifyTag: "logos:tailwindcss",
+        },
+        {
+          skillName: "Ruby on Rails",
+          iconifyTag: "logos:ruby",
+        },
+        {
           skillName: "Github",
           iconifyTag: "akar-icons:github-fill",
         },
+        
       ],
     },
   ],
@@ -112,6 +121,10 @@ export const SkillBars: SkillBarsType[] = [
   {
     Stack: "React Native", //Insert stack or technology you have experience in
     progressPercentage: "70", //Insert relative proficiency in percentage
+  },
+  {
+    Stack: "Ruby on Rails", //Insert stack or technology you have experience in
+    progressPercentage: "60", //Insert relative proficiency in percentage
   },
   {
     Stack: "ReactJs", //Insert stack or technology you have experience in
@@ -165,19 +178,29 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
-    name: "Digital Payment & Top-Up Platform NMA (11 months)",
+    name: "Home Credit Philippines",
     desc: "Money Lending App (NMA) using Flutter. This project is the Flutter-based version of the Money Lending App (LMA), offering support for iPhones. Additionally, it extends its reach to international markets, including India, Indonesia, and Vietnam.",
     github: "",
     link: "https://apps.apple.com/ph/app/home-credit-philippines/id1577894172",
   },
   {
-    name: "Digital Payment & Top-Up Platform LMA  (5 years & 1 months)",
+    name: "Old - Home Credit Philippines",
     desc: "Money Lending App (LMA)  for Native Android. This project is a comprehensive finance app offering loans, e-wallet services, shopping, and card management, along with VAS support. Designed exclusively for Native Android, it is currently available only in the Philippines. As a trusted all-in-one payment and top-up solution, it provides a seamless, secure, and reliable way to manage digital transactions. With a virtual credit card, users can conveniently pay bills, book flights, shop online, and more. Partnering with hundreds of merchants, the platform ensures fast, hassle-free transactions anytime, anywhere.",
     link: "",
   },
   {
     name: "Finance App",
     desc: "This project is a feature-rich finance app designed exclusively for Android Native. It offers a seamless and secure platform for managing digital transactions, including e-wallet services, remittances, and various other financial functions. With a user-friendly interface, the app provides a convenient way to send money, make payments, and handle everyday financial needs with ease.",
+    link: "",
+  },
+  {
+    name: "iAssess - Online Assessment Platform ",
+    desc: "An online talent assessment platform designed for Web, Android, and IOS. It supports organizations in identifying and recruiting top talent while maximizing their potential. It enables clients to administer psychometric tests and obtain real-time results. The platform offers a comprehensive suite of features, including test creation, candidate management, and detailed analytics. With a user-friendly interface and robust functionality, it streamlines the assessment process, helping organizations make informed hiring decisions and optimize their talent acquisition strategies.",
+    link: "https://candidate.iassessonline.com/user/login/candidate",
+  },
+  {
+    name: "KH360 - Performance Review Platform",
+    desc: "A comprehensive web-based application designed to facilitate holistic employee assessments by collecting feedback from peers, managers, and HR personnel. This multi-source approach ensures a well-rounded evaluation of an employee's performance. The system computes evaluation scores, generates detailed reports summarizing feedback and recommendations for professional development. Visual representations, including graphs of z-scores, provide clear insights into performance metrics, enabling employees and management to identify strengths and areas for improvement effectively. Additionally, it is a Human Resources tool providing services like timesheets, lists of leaves, tardies, and holidays .",
     link: "",
   },
 ];
@@ -209,7 +232,7 @@ export const seoData: SEODataType = {
   description: greetings.description,
   author: "Mark Joseph Cabuquit",
   image: "https://media.licdn.com/dms/image/v2/D5635AQE0ZXGyUqwAgQ/profile-framedphoto-shrink_800_800/B56Z5N1XeUJIAg-/0/1779422296310?e=1780153200&v=beta&t=jJlk4I3CO8sDBczSw7oANSUUAZ-eWInrA72Bk7u6XV4",
-  url: "",
+  url: "https://mjcabuquit-porfolio-flame-zeta.vercel.app/",
   keywords: [
     "Mark",
     "Mark Cabuquit",
